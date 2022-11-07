@@ -1,0 +1,11 @@
+Roboto regular (400 weight)
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+Roboto bold (700 weight)
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+

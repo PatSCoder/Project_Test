@@ -1,0 +1,1618 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container{
+
+  
+  grid-template-columns: repeat(1, 1fr);
+
+}
+
+.header{
+
+  display: grid;  
+  background-color: #011827;
+  height: 144px;
+  grid-column-start: 0;
+  grid-column-end: 1;
+}
+
+.header img{
+
+  position: absolute;
+  top: 50px;
+  left: 20px;
+
+  width: 70px;
+  height: 45px;
+
+  font-family: 'Monofett';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.header h2{
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+}
+
+.header p{
+
+  width: 78px;
+  height: 84px;
+}
+
+.header ul{
+
+  position: absolute;
+  width: 78px;
+  height: 84px;
+  top: 30px;
+  left: 90px;
+  margin-left: 5px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+}
+
+.header li{
+
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.menu{
+
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 5px;
+  right: 5px;
+}
+
+
+
+.section_amazing_place img{
+
+  display: grid; 
+  width: 100%; 
+  height: 274px;  
+  grid-column-start: 0;
+  grid-column-end: 1;
+  
+}
+
+#btn_on_site_challenges{   
+
+  background-color: #8ACFE6;
+  width: 308px;
+  height: 66px;
+  margin-top: 20px;
+  
+  
+  
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;  
+  border-radius: 4px;
+
+}
+
+#btn_onsite_challenges{
+
+  text-align: center;
+}
+
+.section_amazing_place a{
+
+  display: block;
+  padding-top: 30px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #36769D;
+  text-align: center;
+
+
+}
+
+.image_text1 p{
+
+  width: 343.26px;
+  height: 139px;
+  margin-top: 60px;
+  margin-left: 15px;
+
+
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+
+}
+
+.image_text1 small{
+
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+
+
+#face{
+
+  width: 73.34px;
+  height: 72px;
+  border-radius: 873px;
+}
+
+.image_text1{
+
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.footer{
+
+  display: grid;
+
+  height: 566px;
+  background: #011827;
+
+  grid-column-start: 0;
+  grid-column-end: 1;
+}
+
+.footer h2{
+
+  width: 242px;
+  height: 21px;
+
+  margin-top: 10px;
+  margin-left: 10px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+
+
+}
+
+.footer p{
+
+  margin-top: -30px;
+}
+
+#site_map{
+
+  margin-left: 10px;
+}
+
+#sitemap_list{
+
+  margin-top: -35px;
+}
+
+
+
+#sitemap_list li{
+
+  margin-left: 10px;
+  
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #FFFFFF; 
+}
+
+#played{
+
+  margin-top: 10px;
+}
+
+
+#follow_us{
+
+  margin-left: 10px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;  
+  color: #FFFFFF;
+}
+
+#followus_list{
+
+  margin-top: -45px;
+  margin-left: 10px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #FFFFFF;
+}
+
+
+
+.popular_challenges h2{
+
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 45px;
+}
+
+.container5 h2{
+
+  margin-top: 10px;
+}
+
+.container5 h2, p{
+
+  margin-left: 10px;
+
+
+}
+
+
+/******************************************************************/
+
+.title_of_room{
+
+  
+ /*  width: 363px; */
+  width: 80%;
+  height: 446px; 
+  margin: auto;
+
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.25);
+  border-radius: 8px;
+  
+  
+}
+
+
+
+.title_of_room img{
+
+  width: 298px;   
+  height: 219px;
+}
+
+.title_of_room h3{
+
+  text-align: left;
+  margin-left: 10px;
+  
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+
+
+
+  color: #000000;
+}
+
+#participant{
+
+  position: absolute;  
+  left: 200px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  color: #000000;
+
+
+}
+
+.title_of_room li img{  
+
+  width: 23.08px;
+  height: 26px;
+  border-radius: 8px;
+
+}
+
+.title_of_room li{
+
+  display: inline;
+  margin-left: 10px;
+}
+
+#titleofroom_small{
+
+ 
+
+
+  margin-top: 35px;
+
+}
+
+
+.btn_book_this_room{
+
+  width: 179.28px;
+  height: 44px;
+  
+
+  background-color: #E3170A;
+  border-radius: 4px;
+}
+
+.bookthisroom{
+
+  margin-right: 15px;  
+  text-align: right;
+}
+
+.onsite{
+
+  width: 308px;
+  height: 66px;
+  
+
+  background: #8ACFE6;
+  border-radius: 4px;
+}
+
+.onsitechallenges{
+
+  text-align: center;
+  margin-top: 40px;
+}
+
+.online{
+
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 50px;
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-decoration-line: underline;
+
+  color: #36769D; 
+}
+
+.readfullstory{
+
+  background: #011827;
+  width: 100%;
+  height: 500px;
+  
+}
+
+.readfullstory p{
+  
+  height: 234px;
+  margin-top: 60px;
+  
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.read{
+
+  width: 308px;
+  height: 66px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #8ACFE6; 
+
+  background: #011927;
+  border: 1px solid #8ACFE6;
+  border-radius: 4px;
+
+}
+
+.btn_read{
+
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pic_playfriends{
+
+  width: 100%;
+  height: 300px;
+}
+
+.play_friends h2{
+
+  margin-top: 10px;
+
+  margin-left: 15px;
+  margin-bottom: 15px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #000000;
+
+
+}
+
+.play_friends p{
+
+  margin-left: 15px;
+}
+
+#btn_booktoday{
+
+  width: 308px;
+  height: 66px;
+  
+  margin-bottom: 30px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  
+
+  color: #FFFFFF;
+
+  background: #E3170A;
+  border-radius: 4px;
+}
+
+.btn_play{
+
+  text-align: left;
+  margin-top: 15px;
+}
+
+.pic_unplash{
+
+  width: 100%;
+  height: 300px;
+
+}
+
+
+
+
+
+.play_online{
+
+  display: grid;
+
+  height: 300px;
+  width: 100%;
+
+  
+
+  grid-column-start: 0;
+  grid-column-start: 1;
+}
+
+.play_online h2, p{
+
+  margin-left: 10px;
+}
+
+.play_online h2{
+
+  margin-top: 15px;
+}
+
+.play_online p{
+
+  margin-bottom: 25px;
+}
+
+#btn_see_all_challenges{
+
+
+
+  background-color: #E3170A;
+  width: 308px;
+  height: 66px;
+  border-radius: 4px;
+ 
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.btn_play{
+
+  text-align: left;
+  margin-left: 10px;
+}
+
+.footer p{
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #FFFFFF;
+
+  color: #FFFFFF;
+}
+
+#site_map{
+
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+
+}
+
+.hide_mobile{
+
+  display: none;
+}
+
+.hide_image_mobile2{
+
+  display: none;
+}
+
+.hideMobileh1{
+
+  display: none;
+}
+
+.hide_online_chellenges_mobile{
+
+  display: none;
+}
+
+.hide_card_1_mobile{
+
+  display: none;
+}
+
+.hide_card_2_mobile{
+
+  display: none;
+}
+
+.hide_card_3_mobile{
+
+  display: none;
+}
+
+.hide_online_chellenges_mobile3{
+
+  display: none;
+}
+
+.btn_online_challenges3{
+
+  display: none;
+}
+
+/* .hide_playonline{
+
+  display: none;
+} */
+
+.hide_card4_playonline{
+
+  display: none;
+}
+
+
+
+/************************************************/
+
+/* media screen settings */
+
+@media screen and (min-width: 480px) {
+
+  .container{
+
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+  }
+
+  .html{
+
+    overflow-x: hidden;
+  }
+
+  .header{
+
+    height: 216px;
+  }
+
+  .header img{
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+  }
+
+  /* .header ul{
+
+    display: flex;    
+    list-style-type: none;
+
+  }
+
+  .header li{
+
+      margin: 0 2px;    
+  } */
+
+ 
+ 
+
+  .section_amazing_place img{
+
+    height: 468px;
+  } 
+
+  
+
+  .hideDesktop{
+
+    display: none;
+  } 
+
+  .showDesktoph1{
+
+    position: absolute;
+    top: 20px;
+    left: 100px;
+
+    display: flex;    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF; 
+
+
+  }
+
+  .show_nav_desktop{
+
+    position: absolute;
+    top: 180px;
+    left: 260px;
+    display: flex;
+
+
+
+
+    
+  }
+
+  .show_nav_desktop a{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+
+    list-style-type: none;
+    text-decoration: none;    
+    margin: 0 40px;
+  }
+
+  .show_nav_desktop a:hover{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    
+    color: #8ACFE6;
+  }
+
+  .menu{
+
+    display: none;
+  }
+
+  .hideOnlineChLink{
+
+    visibility: hidden;
+  }
+
+  /* Desktop grid-layout */
+
+  #btn_onsite_challenges{
+
+   
+
+    display: grid;
+
+  }
+
+  #btn_on_site_challenges{
+
+    grid-column-start:7;
+    grid-column-end:  9;
+    
+
+    
+  }
+
+  .image_text2{
+
+  
+    
+
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+    width: 409.11px;
+    height: 139px;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+  }
+
+  .image_text2 p{
+
+    width: 343.26px;
+    height: 139px;
+    margin-top: 60px;
+    margin-left: 15px;
+  
+  
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  }
+
+  .image_text2 small{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000; 
+  }
+
+  .wrapper{
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+  }
+
+  #btn_online_challenges{
+    
+    
+
+    width: 308px;
+    height: 66px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #E3170A;
+    border-radius: 4px;
+
+  }
+
+  .btn_online_challenges2{
+
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: -35px;
+  }
+
+  #btn_onsite_challenges{
+
+    margin-top: -55px;
+  }
+
+
+  .buttonsChallenges{
+
+      display: flex;
+      justify-content: center;
+
+   
+  }
+
+  /* i have hidden title of room for desktop and create cards */
+
+
+  .title_of_room{
+
+    display: none;
+  }
+
+  /* here begins css-cards */
+
+  .card_1_desktop{
+
+    display: block;
+
+    width: 363px;
+    height: 446px;
+    margin-left: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border-radius: 8px;
+
+  }
+
+  .card_1_desktop img{
+
+    width: 100%;
+    height: 219px;
+
+  }
+
+  .card_1_desktop li img{
+
+    display: inline-block;
+
+    background: #E3170A;
+    width: 16px;
+    height: 20px;
+    
+
+   
+    border-radius: 8px;
+  }
+
+  .card_1_desktop li{
+
+    display: inline;
+  }
+
+  .card_1_desktop h4{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;   
+    color: #000000;
+  }
+
+  .card_1_desktop p{
+
+    margin-top: 20px;
+
+  }
+
+  #participant{
+
+    position: relative;
+
+    top: -25px;
+    right: 90px;
+    
+  }
+
+  .bookthisroom{
+
+    position: relative;
+    top: 15px;
+    
+  }
+
+  /* here begins card2-layout */
+
+  .card_2_desktop{
+
+    display: block;
+
+    width: 363px;
+    height: 446px;
+    margin-left: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border-radius: 8px;
+
+  }
+
+  .card_2_desktop img{
+
+    width: 100%;
+    height: 219px;
+
+  }
+
+  .card_2_desktop li img{
+
+    display: inline-block;
+
+    background: #E3170A;
+    width: 16px;
+    height: 20px;
+    
+
+   
+    border-radius: 8px;
+  }
+
+  .card_2_desktop li{
+
+    display: inline;
+  }
+
+  .card_2_desktop h4{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;   
+    color: #000000;
+  }
+
+  .card_2_desktop p{
+
+    margin-top: 20px;
+
+  }
+
+  #participant{
+
+    position: relative;
+
+    top: -25px;
+    right: 90px;
+    
+  }
+
+  .bookthisroom{
+
+    position: relative;
+    top: 15px;
+    
+  }
+
+  /* Begin card3-layout */
+
+  .card_3_desktop{
+
+    display: block;
+
+    width: 363px;
+    height: 446px;
+    margin-left: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    border-radius: 8px;
+
+  }
+
+  .card_3_desktop img{
+
+    width: 100%;
+    height: 219px;
+
+  }
+
+  .card_3_desktop li img{
+
+    display: inline-block;
+
+    background: #E3170A;
+    width: 16px;
+    height: 20px;
+    
+
+   
+    border-radius: 8px;
+  }
+
+  .card_3_desktop li{
+
+    display: inline;
+  }
+
+  .card_3_desktop h4{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;   
+    color: #000000;
+  }
+
+  .card_3_desktop p{
+
+    margin-top: 20px;
+
+  }
+
+  #participant{
+
+    position: relative;
+
+    top: -25px;
+    right: 90px;
+    
+  }
+
+  .bookthisroom{
+
+    position: relative;
+    top: 15px;
+    
+  }
+
+  /* beginning of wrapper-card */
+
+  .wrapper_card{
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .online{
+
+    display: none;
+  }
+
+  
+
+
+
+
+  #btn_online_challenges_3{
+
+    
+
+    width: 308px;
+    height: 66px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #E3170A;
+    border-radius: 4px;
+  }
+
+  .btn_online_challenges3{
+
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 15px;
+  }
+
+  
+  .wrapper_buttons{
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .readfullstory{   
+    
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+   
+
+    color: #FFFFFF
+
+  }
+
+  .readfullstory p{ 
+    
+    position: relative;
+    top: 100px;
+    left: 30%;
+    width: 500px;
+    
+  }
+
+  
+
+  .wrapper_playfriends img{
+
+    width: 640px;
+    height: 460px;
+  }
+
+ /*  .wrapper_playfriends h2{
+
+    margin-right: auto;
+  } */
+
+  .header_playfriends{
+
+    display: inline-block;
+    
+
+    
+  }
+
+  .header_playfriends h2{
+
+    width: auto;
+  }
+
+ 
+
+    
+
+    
+
+    
+
+  
+
+/*   .wrapper_playfriends h2{
+
+    position: relative;
+    top: 15px;
+    left: 5%;
+    width:(100%-150px);
+    
+
+
+
+  } */
+
+ /*  div#playP{
+
+    position: relative;
+    top: 180px;
+    left: -50px;
+    width: 50%;
+  }
+ */
+
+ .wrapper_playfriends{
+
+  display: grid;
+ }
+
+ .wrapper_playfriends h2{
+
+  
+
+  grid-column-start: 7;
+  grid-column-end: 10;
+ }
+ 
+  
+
+  .btn_play{
+
+    position: relative;
+    top: 300px;
+    left: -200px;
+  }
+
+
+
+ .wrapper_playfriends{
+
+  display: flex;
+ }
+
+ .wrapper_playonline img{
+
+  width: 640px;
+  height: 460px;
+  
+ }
+
+ /* hide desktop play online and image*/
+
+
+
+ /* play online layout */
+
+ .hide_pic_unplash{
+
+  display: none;
+ }
+
+/*  .hide_card4_playonline{
+
+  display: none;
+ } */
+
+ .wrapper_playonline{
+
+  display: flex;
+  visibility: hidden;
+ }
+
+ .card5_playfriends{
+
+  display: flex;
+  flex-direction: row;
+  
+ }
+
+ .container5 h2{
+
+  position: relative;
+  top: 70px;
+  left: 25%;
+
+  width: 416px;
+  text-justify: auto;
+  
+ }
+
+ .container5 p{
+
+  position: relative;
+  top: 85px;
+  left: 23%;
+
+  width: 416px; 
+  
+ }
+
+ .btn_play{
+
+  position: relative;
+  top: 105px;
+  left: 23%;
+ }
+
+ 
+
+ .card4_playonline{
+
+  display: flex;
+  flex-direction:row-reverse;
+  
+  
+
+ }
+
+ .container4 h2{
+
+  position: relative;
+  top: 70px;
+  right: 25%;
+
+  width: 416px;
+  text-justify: auto;
+ }
+
+ .container4 p{
+
+  position: relative;
+  top: 85px;
+  right: 27%;
+
+  width: 416px;
+ }
+
+ .btn_play4{
+
+  position: relative;
+  top: 110px;
+  right: 25%;
+ }
+
+ 
+
+ .pic_unplash{
+
+
+
+  width: 640px;
+  height: 460px;
+ }
+
+ .card4_playonline{
+
+  margin-bottom: 150px;
+ }
+
+
+
+ /* footer section for desktop*/
+
+  .footer h2{
+
+  position: relative;
+  top: 100px;
+  left: 12.5%;
+ }
+ 
+ .footer p{
+
+  position: relative;
+  top: 80px;
+  left: 12%;
+
+  width: 416px;
+
+
+ }
+
+ 
+
+ #follow_us{
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px; 
+  color: #FFFFFF;
+ }
+
+ ul li{
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  
+  color: #FFFFFF;
+ }
+
+ #site_map{
+
+  position: relative;
+
+  width: 72px;
+
+  top: -95px;  
+  left: 70%;
+  
+ }
+
+ #sitemap_list{
+
+  position: relative;
+
+  width: 180px;
+  top: -96px;
+  left: 70%;
+
+  
+
+  list-style-type: none;
+
+
+ }
+
+ #sitemap_list li{
+
+  width: 180px;
+ }
+
+ #played{
+
+  padding-top: 15px;
+ }
+
+ #follow_us{
+
+  position: relative;
+
+  width: 102px;
+  top: -302px;
+  left: 80%;
+  margin-top: -15px;
+
+ }
+
+ #followus_list{
+
+  position: relative;
+
+  width: 180px;
+  top: -306px;
+  left: 80%;
+
+  list-style-type: none;
+
+ }
+
+ #followus_list{
+
+  width: 180px;
+ }
+
+ .hide_pic_unplash{
+
+  display: none;
+ }
+
+ .play_online{
+
+  display: none;
+ }
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+  
+
+    
+
+
+  
+
+ 
+
+  
+
+
+
+  
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  
+}
+
+
+
+
+
+
